@@ -1,0 +1,549 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kurale|Lobster|Marck+Script|Merriweather|Oswald');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster|Merriweather|Russo+One');
+</style>
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body,html {
+	height:100%;
+	width:100%;
+	background-color:#f6f6f6;	
+	margin:0;
+	background-image: url(images/fresh_snow.png);
+	
+}
+header a {
+	font-size: 1.3em;
+	font-family: 'Lobster', cursive;
+	text-decoration:none;
+	transition: all 0.5s ease;
+	color:white;
+}
+
+header {
+	background-image: url(images/header.jpg);
+	float:left;
+	width:100%;
+	border-bottom: 5px solid silver;
+	background-color:#63666B;	
+	min-height:200px;
+	
+}
+
+
+	
+	
+
+
+#learn_more {
+	width:20%;
+	float:left;
+	text-align:center;
+	padding-top:180px;
+
+}
+#write_us {
+	padding-top:180px;
+	width:32%;
+	float:right;
+	text-align:center;
+}
+
+/*   End of header */
+
+/* menu and aside */
+.btn {
+	color:#82828A;
+	font-size:1.3em;
+	font-family: 'Lobster', cursive;
+	margin-bottom:10px;
+	padding:10px;
+	margin:10px;
+}
+.btn:hover{
+border-bottom:5px solid white;
+font-size:1.3em;
+color:gold;
+}
+
+#menu{
+width:100%;
+float:left;	
+height:50px;
+background-color:#2E2D2E;
+border-bottom: 5px solid silver;
+}
+
+#menu.active {
+	position:fixed;
+	top:0;
+	height:50px;
+	border-bottom:none;
+	z-index: 199;
+
+
+	
+	
+	
+	
+}
+
+
+.menu_text {
+float:left;
+width:15%;
+text-align:center;
+margin:1%;
+margin-left:4%;
+
+	
+}
+
+.menu_text>a {
+	font-family: 'Lobster', cursive;
+	text-decoration:none;
+	color:white;
+	font-size:1.3em;
+	transition:all 0.5s ease-out;	
+}
+
+
+.menu_text>a:hover {
+font-size:1.5em;
+border-bottom:3px solid white;
+color:gold;
+
+}
+
+#menu .btn {
+	color:black;
+	float:right;
+	background-color:red;
+	border-radius:10px;
+	margin:10px;
+	margin-right:25px;
+}
+
+
+
+aside {
+	float:right;
+	width:30%;
+	padding-top:60px;
+	margin:2%;
+	text-align:center;
+	border-left: 2px solid silver;
+}
+aside>div>a>span {
+	margin-bottom:20px;
+	float:left;
+	text-align: center;
+	width:100%;
+	
+	
+	
+	
+}
+
+
+aside img {
+	height:200px;
+	width:100%;
+
+	transition: all 0.3s ease-out;	
+}
+
+.img_block {
+	height:200px;
+	width:95%;
+	overflow:hidden;
+	margin-left:2%;
+
+}
+aside img:hover {
+	transform: scale(1.05);
+	
+	
+}
+
+aside span {
+	font-family: 'Lobster', cursive;
+	font-size:1.2em;
+	
+	
+}
+/*end of menu and aside*/
+
+/* main page*/
+
+#main_content {
+	padding-top:60px;
+	float:left;
+	width:55%;
+	margin:3%;
+	padding-left:10px;
+}
+
+#logo_1 {
+float:left;
+padding:15px;
+}
+#block_1 {
+	float:left;
+	width:100%;
+}
+
+
+#logo_2 {
+	float:right;
+	padding:15px;
+}
+
+#block_2 {
+	float:left;
+	width:100%;
+}
+
+
+#logo_3 {
+	float:left;
+	padding:15px;
+}
+
+#block_3 {
+	float:left;
+	width:100%;
+}
+
+
+
+.read_more {
+	font-size:1.2em;
+
+	float:left;
+	margin:10px;
+	width:100%;
+}
+
+.read_more a {
+	float:left;
+	text-decoration:none;
+
+	
+}
+
+.read_more a:hover {
+	border-bottom:1px solid silver;
+	
+}
+
+
+
+.heading {
+	font-size:1.5em;
+	color:#08283D;
+	font-family: 'Russo One', sans-serif;
+	float:left;
+	width:100%;
+	font-weight:bold;
+	
+	
+}
+
+article{
+	float:left;
+}
+
+article>div span {
+	font-size:1.1em;
+	padding-left:20px;
+	font-family: 'Lobster', cursive;
+	line-height:1.6;
+
+}
+
+
+/* end of main page*/
+
+
+/*footer*/
+
+footer {
+	width:98%;
+	float:left;
+	padding:1%;
+	background-color:#2E2D2E;
+	border-top:3px solid silver;
+	height:50px;
+	
+}
+#rights {
+	width:32%;
+	padding-top:15px;
+	float:left;
+	font-family:'Times New Roman', serif;
+	color:white;
+	
+	
+}
+
+footer .heading {
+	float:center;
+	width:30%;
+	color:white;
+	text-align:center;
+	border-left:5px solid white;
+	border-right:5px solid white;
+	
+	
+}
+#social {
+	float:left;
+	width:32%;
+	text-align:right;
+	padding-right:25px;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
+
+#social a {
+	float:right;
+	color:white;
+	margin-right:20px;
+	background-color:black;
+	width:30px;
+	height:30px;
+	text-align:center;
+	border-radius:40%;
+	font-size:1.5em;
+}
+
+
+
+/*Great houses*/
+
+#tar_logo img {
+	transition:all 0.6s ease-out;
+	
+}
+
+#tar_logo img:hover {
+	opacity:0.95;
+	transform: scale(1.05);
+	
+	
+}
+
+/* History*/
+
+/* .line{ */
+	/* text-align:center; */
+	/* float:left; */
+	/* width:95%; */
+	/* border:5px solid black; */
+	/* margin: 5px; */
+	/* height:300px; */
+
+/* } */
+
+/* .active { */
+	/* width:50px; */
+	/* opacity:0; */
+	/* left:100px; */
+	/* width:200px; */
+	/* position:relative; */
+	/* float:left; */
+	/* height:100px; */
+/* } */
+/* .line1{ */
+	/* text-align:center; */
+	/* height:100px; */
+	/* width:200px; */
+    /* float:right;	 */
+	/* margin-top:10px; */
+	/* background-color:red; */
+	/* opacity:0; */
+	/* position:relative; */
+	
+/* } */
+
+
+#center {
+	border-left:2px solid silver;
+	border-right: 2px solid silver;
+	left:35%;
+	position:absolute;
+	height:950px;
+	width:1%;
+
+	
+	
+}
+
+.round {
+	border-radius: 100%;
+	border:5px solid black;
+	width:40px;
+	height:40px;
+	position:relative;
+	text-align:center;
+	opacity:0
+	
+}
+
+.one {
+	top:7%;
+	opacity: 0;
+	left:50%;
+	
+
+}
+
+.two {
+	left:60%;
+	top:0px;
+
+	
+}
+.three{		
+	left:50%;
+	top:200px;
+	
+	
+	
+}
+
+
+.container {
+	width:350px;
+	height:150px;
+	border:3px solid gold;
+	position:relative;
+	opacity:0;
+	border-radius:30px;
+	overflow: scroll!important;
+
+}
+
+
+
+.toOne {
+	top:200px;
+	width: 20%;
+	
+	
+}
+
+.toTwo {
+	top:440px;
+	left:650px;
+}
+
+.toThree {
+	top:150px;
+	left:10px;
+	
+}
+
+
+
+
+.container_text {
+		text-align:center;
+		font-family: Verdana;
+		font-size: 1.2em;
+		
+	
+	
+}
+
+.background span {
+	color:blue;
+	font-weight:900;
+	
+	
+}
+
+
+.background {
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	position:relative;
+	text-align:center;
+	opacity:0;
+	background-color:gold;
+
+}
+.color1 {
+	top:45px;
+	left:68px;
+	
+}
+
+.color2 {
+	top:125px;
+	left:100%;
+	
+}
+.color3 {
+
+	top:185px;
+	left:30%;
+
+}
+
+#main_geo{
+	float:left;
+	width: 60%;
+	margin:2%;	
+	
+	
+	
+}
+#box {
+	background-color: green;
+	width:50px;
+	height:50px;
+	position:relative;
+	opacity:1;
+	overflow:scroll!important;
+
+}
+
+
+#block_container_1 {
+	width:60%;
+	height:31%;
+	margin:1%;
+	float:left;
+}
+
+
+#text_img {
+	width:100%;
+	height:120px;
+	transition: all 1s ease-out;
+}
+
+#text_img:hover{
+ -webkit-transform: scale(1.05);
+ }
+
+#test_box {
+	width:10%;
+	height:120px;
+	overflow:hidden;
+}
+
+
+
+
